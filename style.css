@@ -6,6 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     background: black;
+    flex-direction: column;
 }
 
 main{
@@ -15,6 +16,7 @@ main{
     max-width: 300px;
     color: hsl(217, 12%, 63%);
     font-size: 13px;
+    margin-bottom: 15px;
 }
 #thank-you{
     display: flex;
@@ -97,14 +99,6 @@ form{
     transition: 0.3s;
 }
 
-
-
-/* .diver:hover{
-    color: hsl(0, 0%, 100%);
-    background: hsl(25, 97%, 53%);
-    transition: 0.3s;
-} */
-
 #button{
     margin-top: 01.5em;
     border: 0;
@@ -120,4 +114,13 @@ form{
     background-color: hsl(0, 0%, 100%);
     color:hsl(25, 97%, 53%);
     transition: 0.5s;
+}
+
+.attribution{
+    color:hsl(0, 0%, 100%)
+}
+
+.attribution a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
 }
