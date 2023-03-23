@@ -1,0 +1,123 @@
+@import url('https://fonts.google.com/specimen/Overpass');
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+main{
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+    padding: 2em;
+    border-radius: 25px;
+    max-width: 300px;
+    color: hsl(217, 12%, 63%);
+    font-size: 13px;
+}
+#thank-you{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.appreciation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.appreciation h2{
+    color:hsl(0, 0%, 100%);
+}
+.appreciation p{
+    margin: 2px;
+}
+.selection{
+    background: hsl(213, 19%, 18%);
+    padding: 5px 20px;
+    border-radius: 15px;
+    color:hsl(25, 83%, 63%);
+    margin-top: 50px;
+}
+.star{
+    width: 100%;
+}
+
+.star-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 17px;
+    border-radius: 50%;
+    padding: 1em;
+    background: hsl(213, 19%, 18%);
+}
+.review{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.review h2{
+    color: hsl(0, 0%, 100%);
+}
+
+.review p{
+    font-size: 13px;
+}
+.ratings{
+    font-family: 'Montserrat', sans-serif;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.diver{
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6em 0.9em;
+    border-radius: 50%;
+    background: hsl(213, 19%, 18%);
+    cursor: pointer;
+}
+
+.input{
+    visibility: hidden;
+}
+
+.input:checked + .diver{
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+    transition: 0.3s;
+}
+
+
+
+/* .diver:hover{
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+    transition: 0.3s;
+} */
+
+#button{
+    margin-top: 01.5em;
+    border: 0;
+    padding: 0.7em;
+    border-radius: 15px;
+    width: 100%;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+#button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%);
+    transition: 0.5s;
+}
